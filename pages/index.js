@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Next.js Boilerplate</title>
+        <title>My Next.js App</title>
         <meta name="description" content="A basic Next.js boilerplate application" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
