@@ -1,8 +1,8 @@
 import Head from 'next/head';
 import { useState } from 'react';
-import { Card, CardHeader, CardTitle, CardContent } from '../components/ui/card';
-import { Button } from '../components/ui/button';
-import styles from '../styles/Home.module.css';
+import { Card, CardHeader, CardTitle, CardContent } from '../src/components/ui/card';
+import { Button } from '../src/components/ui/button';
+import styles from '../src/styles/Home.module.css';
 
 export default function Home() {
   const [count, setCount] = useState(0);
@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>My Next.js App</title>
+        <title>Next.js Boilerplate</title>
         <meta name="description" content="A basic Next.js boilerplate application" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
