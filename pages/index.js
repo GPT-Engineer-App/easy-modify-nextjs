@@ -2,7 +2,7 @@ import Head from 'next/head';
 import { useState } from 'react';
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import styles from '@/src/styles/Home.module.css';
+import styles from '@/styles/Home.module.css';
 
 export default function Home() {
   const [count, setCount] = useState(0);
